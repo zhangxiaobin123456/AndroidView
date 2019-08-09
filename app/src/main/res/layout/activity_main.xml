@@ -30,6 +30,23 @@
             android:text="toViewTestTwoActivity"
             style="@style/text_style"
             />
+        <TextView
+            android:id="@+id/tv_toThree"
+            android:text="toViewTestThreeActivity"
+            style="@style/text_style"
+            />
+
+        <TextView
+            android:id="@+id/tv_toViewScroll"
+            android:text="toViewScrollTestTwoActivity"
+            style="@style/text_style"
+            />
+
+        <TextView
+            android:id="@+id/tv_toScrollDemo"
+            android:text="toScrollDemoActivity"
+            style="@style/text_style"
+            />
     </LinearLayout>
 
 </LinearLayout>

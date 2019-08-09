@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidview.view.ViewScrollTestActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_one"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#cc0000"
+            android:gravity="center"
+            android:text="天王盖地虎"
+            />
+
+        <TextView
+            android:id="@+id/tv_two"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#cccc00"
+            android:text="宝塔镇河妖"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/scroll"
+            android:text="scroll"
+            android:layout_alignParentBottom="true"
+            style="@style/text_style"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

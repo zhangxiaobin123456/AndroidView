@@ -20,6 +20,12 @@
         </activity>
         <activity android:name=".view.ViewTestTwoActivity">
         </activity>
+        <activity android:name=".view.ViewScrollTestActivity">
+        </activity>
+        <activity android:name=".view.ViewTestThreeActivity">
+        </activity>
+        <activity android:name=".view.ScrollDemoActivity">
+        </activity>
     </application>
 
 </manifest>
